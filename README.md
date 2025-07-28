@@ -4,6 +4,6 @@
 
 You can use the example file in this repo to test it 
 
-![Alt text](customer-churn-dashboard/dash1.png)
+![Churn Dashboard 1](dash1.png)
 
-![Alt text](customer-churn-dashboard/dash2.png)
+![Churn Dashboard 2](dash2.png)
