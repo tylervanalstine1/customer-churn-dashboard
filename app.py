@@ -96,12 +96,10 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # File upload
-uploaded_file = st.file_uploader("Upload a CSV file with the following columns:
-- Churn
-- Contract
-- InternetService
-- PaymentMethod
-- TotalCharges ", type=["csv"])
+uploaded_file = st.file_uploader(
+    "Upload your CSV file (must include columns: Churn, Contract, InternetService, PaymentMethod, TotalCharges)",
+    type=["csv"]
+)
 
 if uploaded_file is not None:
     try:
